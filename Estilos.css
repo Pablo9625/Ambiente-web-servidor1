@@ -1,0 +1,364 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    font-family: arial, sans-serif;
+    text-align: center;
+    
+}
+img.banner{
+    width: 100%; 
+    height: 46%;          /*200px*/
+    margin-top: 1% ;    /*30px    cambiar cuando termine el menu */   /*8% si uso fixed*/
+}
+
+#div1{
+    width: 100%;
+    height: 200%;       /* 667px*/
+    background-color:red;
+    box-shadow: 1px 3px 3px 8px #fff;
+   /* position: fixed;*/
+}
+#div2{
+    background: #424242;  /*fondo gris o negro*/
+    height: 100px;
+    width: 100%;
+    line-height: 100%; /*100px*/
+                                                         /*opacity: 0.8;*/ /* tranparente */ 
+    filter: alpha (opacity=80);
+}
+#div2 h1 {
+    float: left;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;   /*10px*/
+}
+#div2 ul {
+    float: right;
+    position: relative;
+    margin-right: 7%; /*100px*/
+    line-height: 55px;   /*55px*/
+    z-index: 1;
+}
+#div2 ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+#div2 ul li a{
+    padding: 22px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#div2 ul li:hover{
+       background:  #9E9E9E;     /*cambiar color*/  
+       transition: all 0.40s;
+    
+}
+#div2 ul li:hover ul {
+    display: block;
+}
+#div2 ul ul {
+    display: none;
+    width: 25%;  /*120px*/
+    position: absolute;
+}
+#div2 ul li li{
+    background: #424242;  /*cambiar a negro*/
+    display: block;
+} 
+#div2 ul li li a {
+    padding: 8%; /*20px*/
+}
+#div2 ul li li:hover{
+    background: #9E9E9E;
+    transition: all 0.40s;
+}
+
+
+.active {
+   /* background: #9E9E9E;*/
+}
+/*.active1{
+    background: #9E9E9E;
+}*/
+.contact_form h2 {
+    background: none repeat scroll 0 0 #424242;
+    border-radius: 5px;
+    color: #fff;
+    display:block;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 2%; 
+    text-shadow: 1% 1% 1% black;
+    width: 100%;
+    margin-top: 10%;
+    
+}
+#nombre{
+    margin-left: -27%;
+}
+.contact_form ul {
+    width:  100%;
+    list-style-type:none;
+	margin:0px;
+	padding:0px;
+    margin-left: 28%;
+}
+.contact_form li{
+	padding:12px; 
+	border-bottom:1px solid #000000;
+	position:relative;
+}
+.contact_form label {
+    color: #fff;
+    display: inline-block;
+    float:left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold; 
+    margin-top: 0%;
+    padding: 0%;
+    width: 15%;
+}
+.submit{
+    margin-left: -27%;
+    padding: 1%;
+    width: 10%;
+}
+#volver{
+    margin-left: 50px;
+    margin-top: 25px;
+        
+}
+#prueba {
+    width: 56%;
+    margin-left: 50px;
+    }
+img.foto {
+    float: right;
+    width: 25%;
+    padding-right: 15px;
+    margin-top: -300px;
+}
+
+
+#pie{
+
+height:10%;  
+margin-top: -50px;  
+background-color: #424242; /*black o grey*/
+width: 100%;
+color: white;
+text-align:center;
+}
+#mapa_grande{
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-left: 14%;
+    margin-bottom: 8%;
+    
+}
+#torneo1{
+    background-color: darkred;
+    margin-top: 1%;
+    
+    
+}
+.textoT{
+    color: white;
+}
+img.foro{
+    width: 50%;
+    margin-top: 3%;
+    
+}
+#pie1{
+
+height:20%;  
+margin-top: 10%;  
+background-color: #424242;
+width: 100%;
+color: white;
+text-align:center;
+    
+}
+.flotante {
+     width:30%;
+	/*min-height: 100px;*/
+	background-color:darkred;
+	float:left;
+	margin:1%;
+    font-size: 19px;
+    color: #FFF;
+    text-align:center;
+    margin-top: 5%;
+}
+
+
+.flotante1{
+    width:30%;
+	min-height: 100px;
+	background-color:darkred;
+	float:left;
+	margin:1%;
+    font-size: 19px;
+    color: #FFF;
+    text-align:center;
+    
+}
+#pie2{
+
+height:20%;  
+margin-top: 75%;  
+background-color: #424242;
+width: 100%;
+color: white;
+text-align:center;
+    
+    
+}
+.mySlides{
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    
+}
+#foto1{
+    text-align: center;
+    
+    width:75%;
+
+}
+#foto2{
+    text-align: center;
+    width:80%;
+    height: 470px;
+
+}
+/*empieza slideshow*/
+
+#box{
+width: 98%; 
+background: #424242;
+padding: 1%;   /*10px*/
+border-radius: 1%;
+margin-top: 2%;
+height: 560px;
+margin-left: 1%;
+margin-right:0%;
+margin-bottom: 3%;
+}
+
+#box-imagen{
+border-radius: 1%;
+width: 100%;
+height: 535px;
+background: black;
+overflow: hidden;
+}
+
+#box-imagen img
+{
+position: relative;
+width: 100%;
+height: 100%;
+}
+
+/*termina slideshow*/
+
+#biografia{
+    width: 82%;
+    text-align: left;
+    margin-top: 5%;
+    background-color: #424242; /*black*/
+    margin-left: 1%;
+    margin-right: 1%;
+    color: white;
+    position: relative;
+    line-height: 200% ;
+    font-size: 100%;
+    border-radius: 1%;
+    
+    
+}
+
+
+#img1{
+    width: 13%;
+    border-radius: 3%;
+    float: right;
+    white-space: 5;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+
+#img2{
+    float: right;
+    margin-right: 1%;
+    width: 20%;
+    margin-left: 1%;
+    margin-top: -2%;
+    border-radius: 3%;
+}
+
+#img3{
+    float: right;
+    width: 18%;
+    margin-right: 1%;
+    margin-left: 1%;
+    
+    
+}
+#img4{
+    float: right;
+    width: 34%;
+    margin-right: 1%;
+    margin-left: 1%;
+    
+}
+#img5{
+    float: right;
+    width: 28%;
+    margin-right: 1%;
+    margin-left: 1%;
+    
+}
+#pie3{
+
+height:20%;  
+margin-top: 10%;  
+background-color: #424242;
+width: 100%;
+color: white;
+text-align:center;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
